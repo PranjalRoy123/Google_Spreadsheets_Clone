@@ -1,0 +1,26 @@
+.navbar {
+    width: 100%;
+    height: 55px;
+    background: rgb(21, 100, 155);
+    display: flex;
+    justify-content: center;
+}
+
+.navbar > div {
+    align-self: center;
+    display: flex;
+}
+
+.navbar > div > a {
+    color: white;
+    font-size: 22px;
+    font-weight: 700;
+    text-decoration: none;
+    font-family: sans-serif;
+    padding: 14px 4.3vw;
+    transition: background 0.5s ease-in-out;
+}
+
+.navbar > div > a:hover{
+    background:rgb(24, 124, 196);
+}
